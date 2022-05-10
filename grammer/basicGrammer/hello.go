@@ -5,6 +5,15 @@ import (
 	"math"
 )
 
+//函数
+func add(a int, b int) int {
+	return a + b
+}
+
+func exists(m map[string]string, k string) (v string, ok bool) {
+	v, ok = m[k]
+	return v, ok
+}
 func main() {
 	//输出
 	fmt.Println("hello world")
@@ -130,4 +139,9 @@ func main() {
 		fmt.Println(k, v)
 	}
 
+	res := add(1, 2)
+	fmt.Println(res) // 3
+
+	v, ok := exists(map[string]string{"a": "A"}, "a")
+	fmt.Println(v, ok) // A True
 }
