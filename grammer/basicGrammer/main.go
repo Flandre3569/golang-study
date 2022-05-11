@@ -14,6 +14,32 @@ func exists(m map[string]string, k string) (v string, ok bool) {
 	v, ok = m[k]
 	return v, ok
 }
+
+//指针
+func addTwo(n *int) {
+	*n += 2
+}
+
+// Person 结构体
+type Person struct {
+	name string
+	age  int
+}
+
+//查询
+func queryByName(payload Person) bool {
+	//if payload.name == "张三" {
+	//	return true
+	//}
+	//return false
+	return payload.name == "张三"
+}
+
+//set方法
+func (p *Person) setName(name string) {
+	p.name = name
+}
+
 func main() {
 	//输出
 	fmt.Println("hello world")
@@ -144,4 +170,22 @@ func main() {
 
 	v, ok := exists(map[string]string{"a": "A"}, "a")
 	fmt.Println(v, ok) // A True
+
+	//指针
+	addT := 2
+	addTwo(&addT)
+	fmt.Println(addT)
+
+	//结构体
+	studentA := Person{name: "mx", age: 18}
+	fmt.Println(studentA.name, studentA.age)
+	studentB := Person{"张三", 20}
+	fmt.Println(studentB)
+
+	if queryByName(studentB) {
+		fmt.Println("查询成功")
+	}
+
+	studentB.setName("mingX")
+
 }
