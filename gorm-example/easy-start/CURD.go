@@ -6,9 +6,11 @@ import (
 	"gorm.io/gorm"
 )
 
+// 注意此处实体的key必须是大写开头
+
 type User struct {
-	name     string
-	password string
+	Name     string
+	Password string
 }
 
 func main() {
@@ -24,7 +26,7 @@ func main() {
 	//	fmt.Println("连接数据库失败")
 	//}
 	//fmt.Println(users)
-	user := User{name: "小红", password: "123321"}
+	user := User{Name: "小红", Password: "123321"}
 	result := db.Create(&user)
 	fmt.Println(result)
 }
