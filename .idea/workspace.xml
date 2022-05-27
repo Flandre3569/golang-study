@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829e6af9-4282-49ed-9f4d-3b0391d98eba" name="变更" comment="upgrade -&gt; gorm connect db">
-      <change afterPath="$PROJECT_DIR$/gorm-example/easy-start/CURD.go" afterDir="false" />
+    <list default="true" id="829e6af9-4282-49ed-9f4d-3b0391d98eba" name="变更" comment="fix -&gt; annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorm-example/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/gorm-example/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorm-example/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/gorm-example/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gorm-example/easy-start/CURD.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorm-example/easy-start/CURD.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix -&gt; a little details don't correspond" />
     <MESSAGE value="upgrade -&gt; gorm connect db" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade -&gt; gorm connect db" />
+    <MESSAGE value="gorm -&gt; easy test" />
+    <MESSAGE value="fix -&gt; annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix -&gt; annotation" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
