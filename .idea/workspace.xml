@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829e6af9-4282-49ed-9f4d-3b0391d98eba" name="变更" comment="fix -&gt; annotation">
+    <list default="true" id="829e6af9-4282-49ed-9f4d-3b0391d98eba" name="变更" comment="update -&gt; CURD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gorm-example/easy-start/CURD.go" beforeDir="false" afterPath="$PROJECT_DIR$/gorm-example/easy-start/CURD.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,8 @@
     <MESSAGE value="upgrade -&gt; gorm connect db" />
     <MESSAGE value="gorm -&gt; easy test" />
     <MESSAGE value="fix -&gt; annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix -&gt; annotation" />
+    <MESSAGE value="update -&gt; CURD" />
+    <option name="LAST_COMMIT_MESSAGE" value="update -&gt; CURD" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
